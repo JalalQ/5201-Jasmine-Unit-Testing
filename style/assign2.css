@@ -1,0 +1,36 @@
+/*Assignment 2 (taken from Lab 2): Login Page. BEM naming convention*/
+
+.authForm {
+    background-color: gainsboro;
+    margin-right:75%;
+    margin-bottom: 15px;
+    margin-left:15px;
+    margin-top:15px;
+}
+
+.formBlock {
+    border-style: dashed;
+    background-color: gainsboro;
+}
+
+.authForm__button {
+    margin-left: 20px;
+}
+
+.authForm__label {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    background-color: darkgray;
+}
+
+.authForm__input {
+    margin-left: 5px;
+}
+
+.authForm__input_error {
+    background-color: red;
+}
+
+.authForm__input_noError {
+    background-color: white;
+}
